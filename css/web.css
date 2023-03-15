@@ -1,0 +1,428 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+p{
+  color: gray;  
+  font-weight: 300;
+}
+
+h2{
+  font-size: 1.5rem;
+}
+h3{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+
+.linker{
+  text-decoration: none;
+  color: black
+}
+
+
+.container_first_block{
+  background-color: #FBF8F3;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Aquì estoy en el header */
+
+.bar_navegation-flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 40px;
+  font-size: 1.05rem ;
+  text-align: center;
+  width: auto; 
+  height: 50px; 
+}
+
+
+
+.nav_left a{
+  font-weight: 1000;
+}
+
+.nav_mid{
+  justify-content: space-between;
+  text-align: center;
+}
+
+.nav_mid a{
+  padding-left: 35px;
+  align-items: center;
+}
+ 
+
+.nav_rigth a{
+  padding-left: 20px;
+  align-items: center; 
+  font-weight: bold;
+}
+
+.nav_rigth button{
+  border-radius: 6px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  width: 100px;
+  height: 45px;
+
+}
+
+
+
+/* Aquì estoy en el information */
+
+.information{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+.text_rated_stars{
+  font-weight: bold;
+}
+.information_text_containe_flex{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 500px;
+}
+.person-Of-The-Future{
+  width: 40%;
+  max-width: 450px;
+  max-height: 450px;
+}
+
+ 
+.rated_stars_flex{
+  display: flex;
+  align-items: center;
+}
+
+.stars_images{
+  padding-right: 10px;
+}
+ 
+.h1_description{
+  margin-right: none; 
+  font-size: 3rem;
+}
+
+.pagraph_description{
+  padding-top: 10px;
+  color: grey;
+  font-size: 1.1rem;
+}
+
+.buttom_liker_information{
+  padding-top: 10px;
+}
+
+.buttom_liker_information button{
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  background-color: blueviolet;
+  color: white;
+}
+
+.buttom_liker_information a{
+  padding-left: 20px;
+  color: blueviolet;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.checkmark{
+  padding-top: 20px;
+  display: flex;
+}
+
+.checkmark img{
+  width: 25px;
+  padding-right: 5px;
+}
+
+.first_checkmark{
+  display: flex;
+  padding-right: 10px;
+}
+
+.second_checkmark{
+  display: flex;
+}
+
+ /* AQUI ESTOY EN LA SECCION 2 */
+ .main-section_2{
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  margin:  50px 0 50px 0;
+ }
+ .main-section2-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  width:90%;
+  max-width: 1100px ;
+ }
+
+ .main-secion-container{
+  width: inherit;
+  margin: 25px 0 25px 0;
+ }
+ .main-section2-flex div{
+
+  /* margin: 25px 20px 25px 20px; */
+ }
+ 
+ .diversity-your-portafolio_section2_flex{
+  background-color: blueviolet;
+  padding: 40px 40px 0 40px;
+  border-radius: 10px;
+  height: 300px;
+  
+ }
+ /* AQUI ESTOY EN LOS ICONOS CON DESCRIPCION */
+ .fiber{
+  max-width: 300px;
+ }
+ .fiber_mini_text{
+  color: blueviolet;
+  font-weight: bold;
+  font-size: 1.3rem;
+ }
+ .container_icons_flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
+ .container_icons_flex>*{
+  margin: 0 25px 0 25px;
+ }
+ /* DIVERSITY YOUR PORTAFOLIO */
+ .diversity-your-portafolio_section2_flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+ }
+ .diversity-your-portafolio_section2_flex button{
+  margin-top: 30px;
+  margin-bottom: 25px;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  background-color: white;
+  color: blueviolet;
+  font-weight: bold;
+ }
+ 
+ .diversity-your-portafolio_section2_flex>*{
+  margin: 0 25px 0 25px;
+ }
+ .diversity-your-portafolio_section2_flex img{
+    width: 50%;
+    height: 100%;
+ }
+ /* AVATARS SECTION2 */
+ .avatars_section2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  overflow: scroll;
+  padding-left: 300px;
+ }
+
+ .first_avatar{
+  flex: 1 0 auto;
+  display: flex;
+  align-items: center;
+  margin: 0px 50px;
+  max-width: 400px;
+  height: 250px;
+  margin: 30px 20px 100px 20px;
+  padding: 30px;
+  border: 1px gray solid;
+  border-radius: 5px;
+ }
+
+ .second_avatar{
+  flex: 1 0 auto;
+  display: flex;
+  align-items: center;
+  margin: 0px 50px;
+  max-width: 400px;
+  height: 250px;
+  margin: 30px 20px 100px 20px;
+  padding: 30px;
+  border: 1px gray solid;
+  border-radius: 5px;
+ }
+
+ .third_avatar{
+  flex: 1 0 auto;
+  display: flex;
+  align-items: center;
+  margin: 0px 50px;
+  max-width: 400px;
+  height: 250px;
+  margin: 30px 20px 100px 20px;
+  padding: 30px;
+  border: 1px gray solid;
+  border-radius: 5px;
+ }
+ .container_img_name_avatar2_flex{
+  display: flex;
+  align-items: center;
+ }
+ .container_img_name_avatar2_flex img{
+  padding-right: 20px;
+ }
+ .name{
+  color: blueviolet;
+  font-weight: bold;
+ }
+ 
+ .avatars_section2 button{
+  color: blueviolet;
+  font-weight: bold;
+  background: white;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: gray solid 1px ;
+ }
+ 
+
+
+ /* MAIN FOOTER */
+ .main-footer{
+  background-color: #FBF8F3 ;
+  display: flex;
+  justify-content: center;
+ }
+ .footer_container_flex{
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+ }
+ .main-footer ul{
+  list-style-type: none;
+ }
+ .footer_container_flex> div{
+  margin: 20px;
+  padding-right: 45px;
+ }
+ .footer_container_flex> div *{
+margin-bottom: 10px;
+ }
+ .fiber {
+  padding-bottom:30px ;
+ }
+ @media screen and ( max-width:1023px ){
+  /* HEADER */
+  .nav_mid{
+    display: none;
+  }
+  .nav_rigth{
+    display: none;
+  }
+/* CREATE YOUR PORTAFOLIO */
+  .information{
+    flex-direction: column-reverse;
+    margin: 20px;
+  }
+  .information img{
+    width: 100%;
+  }
+  .rated_stars_flex{
+    display: none;
+    padding: 0;
+  }
+  .information{
+    width: 90%;
+  }
+  .buttom_liker_information{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .checkmark img{
+    width:auto;
+  }
+  /* Why Fiber */
+  .fiber_long_text{
+    margin-top: 20px;
+  }
+  /* ICONS */
+  .container_icons_flex{
+    flex-direction: column;
+    max-width: 400px;
+  }
+  .container_icons_flex>*{
+    margin: 25px 0 25px 0; 
+  }
+  .diversity-your-portafolio_section2_flex{
+    flex-direction: column;
+    height: 100%;
+    max-width: 400px;
+  }
+  .diversity-your-portafolio_section2_flex *{
+   margin: 0;
+   color: white;
+  }
+  .diversity-your-portafolio_section2_flex button{
+    width:100%;
+  }
+
+  .diversity-your-portafolio_section2_flex img{
+    width: 100%;
+  }
+  /* AVATARS */
+ .avatars_section2{
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+ }
+ .a{
+  color: #FBF8F3;
+ }
+
+ }
+ @media screen and ( min-width:1024px ){
+  .nav_img{
+    display: none;
+  } 
+  .pagraph_first_part{
+    margin-top: 20px;
+    color: rgb(211, 211, 211);
+  }
+ }
+ 
